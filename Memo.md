@@ -41,7 +41,7 @@
 
 [용어]
 
-- `Query` : `Database`로 부터 정보를 얻는 것
+- `Query`[질문] : `Database`로 부터 정보를 얻는 것, 어떤 것인지 설명
 - `Mutation` : `server` 혹은 `database`에서 정보를 바꾸는 작업
-- `Resolve` : query에 대한 해결 ..? view..?
+- `Resolver`[해결] : `args` 를 제공하며, 그 중 첫번째는 `object`, Query에 대한걸 함수로 실행함
 - `Playground` : 일종의 postman 같은 역할로 database를 테스트 해볼 수 있는 곳
