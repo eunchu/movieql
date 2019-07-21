@@ -24,6 +24,7 @@
 - [x] graphql-yoga
 - [x] nodemon
 - [x] babel-cli, babel-preset-env, babel-preset-stage-3
+- [x] node-fetch : node.js에서 fetch할 때 필요
 
 2. Setting
 
@@ -38,10 +39,11 @@
 
 - 무엇을 주고 받을지에 대한 `설명`
 - `schema.graphql` 파일 참조
+- 지정한 type을 사용하기 위해선, query와 mutation에 넣어줘야 함.
 
 [용어]
 
 - `Query`[질문] : `Database`로 부터 정보를 얻는 것, 어떤 것인지 설명
-- `Mutation` : `server` 혹은 `database`에서 정보를 바꾸는 작업
+- `Mutation` : `server` 혹은 `database`에서 정보를 바꾸는 작업, state가 바뀔 때
 - `Resolver`[해결] : `args` 를 제공하며, 그 중 첫번째는 `object`, Query에 대한걸 함수로 실행함
 - `Playground` : 일종의 postman 같은 역할로 database를 테스트 해볼 수 있는 곳
